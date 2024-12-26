@@ -4,6 +4,7 @@ dnf module enacle nodejs:20 -y
 dnf install nodejs -y
 
 useradd roboshop
+rm -rf /app
 mk dir /app
 
 
